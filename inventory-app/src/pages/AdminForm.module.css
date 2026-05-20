@@ -1,0 +1,23 @@
+.page {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.back {
+  background: none;
+  border: none;
+  color: #555;
+  cursor: pointer;
+  font-size: 14px;
+  margin-bottom: 1rem;
+  padding: 0;
+}
+
+.back:hover { color: #000; }
+
+.title {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}

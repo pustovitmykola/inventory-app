@@ -1,0 +1,62 @@
+.saved {
+  color: #38a169;
+  font-size: 14px;
+  margin-bottom: 1rem;
+}
+
+.section {
+  background: #fff;
+  border: 1px solid #eee;
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.sectionTitle {
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #888;
+  margin-bottom: 1rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.form label {
+  font-size: 13px;
+  font-weight: 600;
+  color: #555;
+}
+
+.form input[type="text"],
+.form textarea {
+  padding: 9px 12px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 14px;
+  outline: none;
+}
+
+.form input:focus, .form textarea:focus { border-color: #1a1a1a; }
+.form textarea { resize: vertical; }
+
+.form button {
+  align-self: flex-start;
+  padding: 8px 20px;
+  background: #1a1a1a;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  margin-top: 4px;
+}
+
+.form button:hover { background: #333; }
+.form button:disabled { background: #aaa; cursor: not-allowed; }

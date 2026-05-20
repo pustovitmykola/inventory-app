@@ -1,0 +1,26 @@
+.details {
+  background: #fff;
+  border-radius: 12px;
+  border: 1px solid #eee;
+  padding: 1.5rem;
+}
+
+.photo {
+  width: 100%;
+  max-height: 320px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+.name {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.description {
+  font-size: 15px;
+  color: #666;
+  line-height: 1.6;
+}
